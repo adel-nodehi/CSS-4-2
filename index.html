@@ -15,14 +15,389 @@
     <link rel="stylesheet" href="./style.css" />
   </head>
   <body>
-    <div class="container">
-      <div class="row text-center">
-        <div class="col-12 col-md-6 col-lg-4 col-xl-3">Column 1</div>
-        <div class="col-12 col-md-6 col-lg-4 col-xl-3">Column 2</div>
-        <div class="col-12 col-md-6 col-lg-4 col-xl-3">Column 3</div>
-        <div class="col-12 col-md-6 col-lg-4 col-xl-3">Column 4</div>
+    <nav class="navbar navbar-expand-lg bg-dark navbar-dark">
+      <div class="container">
+        <a class="navbar-brand" href="#">Navbar</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Link</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Dropdown
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Action</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li><hr class="dropdown-divider" /></li>
+                <li>
+                  <a class="dropdown-item" href="#">Something else here</a>
+                </li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+            </li>
+          </ul>
+          <form class="d-flex" role="search">
+            <input
+              class="form-control me-2"
+              type="search"
+              placeholder="Search"
+              aria-label="Search"
+            />
+            <button class="btn btn-outline-success" type="submit">
+              Search
+            </button>
+          </form>
+        </div>
       </div>
-    </div>
+    </nav>
+
+    <main>
+      <div class="container">
+        <section
+          class="d-flex flex-column align-items-center album mx-auto mt-5"
+        >
+          <h1 class="display-5">Album example</h1>
+          <p class="text-center lead text-body-secondary mb-4">
+            Something short and leading about the collection below—its contents,
+            the creator, etc. Make it short and sweet, but not too short so
+            folks don’t simply skip over it entirely.
+          </p>
+
+          <div>
+            <a class="btn btn-primary" href="#" role="button"
+              >Main call to action</a
+            >
+            <a class="btn btn-dark" href="#" role="button">Secondary action</a>
+          </div>
+        </section>
+
+        <section class="mt-5 pt-5">
+          <div class="row g-3">
+            <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+              <div class="card">
+                <img src="./default-image.svg" class="card-img-top" alt="..." />
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">
+                    Some quick example text to build on the card title and make
+                    up the bulk of the card's content.
+                  </p>
+
+                  <div
+                    class="d-flex align-items-center justify-content-between"
+                  >
+                    <div
+                      class="btn-group btn-group-sm"
+                      role="group"
+                      aria-label="Basic outlined example"
+                    >
+                      <button type="button" class="btn btn-outline-secondary">
+                        View
+                      </button>
+                      <button type="button" class="btn btn-outline-secondary">
+                        Edit
+                      </button>
+                    </div>
+
+                    <p class="mb-0 text-body-secondary fs-7">9 mins</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+              <div class="card">
+                <img src="./default-image.svg" class="card-img-top" alt="..." />
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">
+                    Some quick example text to build on the card title and make
+                    up the bulk of the card's content.
+                  </p>
+
+                  <div
+                    class="d-flex align-items-center justify-content-between"
+                  >
+                    <div
+                      class="btn-group btn-group-sm"
+                      role="group"
+                      aria-label="Basic outlined example"
+                    >
+                      <button type="button" class="btn btn-outline-secondary">
+                        View
+                      </button>
+                      <button type="button" class="btn btn-outline-secondary">
+                        Edit
+                      </button>
+                    </div>
+
+                    <p class="mb-0 text-body-secondary fs-7">9 mins</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+              <div class="card">
+                <img src="./default-image.svg" class="card-img-top" alt="..." />
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">
+                    Some quick example text to build on the card title and make
+                    up the bulk of the card's content.
+                  </p>
+
+                  <div
+                    class="d-flex align-items-center justify-content-between"
+                  >
+                    <div
+                      class="btn-group btn-group-sm"
+                      role="group"
+                      aria-label="Basic outlined example"
+                    >
+                      <button type="button" class="btn btn-outline-secondary">
+                        View
+                      </button>
+                      <button type="button" class="btn btn-outline-secondary">
+                        Edit
+                      </button>
+                    </div>
+
+                    <p class="mb-0 text-body-secondary fs-7">9 mins</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+              <div class="card">
+                <img src="./default-image.svg" class="card-img-top" alt="..." />
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">
+                    Some quick example text to build on the card title and make
+                    up the bulk of the card's content.
+                  </p>
+
+                  <div
+                    class="d-flex align-items-center justify-content-between"
+                  >
+                    <div
+                      class="btn-group btn-group-sm"
+                      role="group"
+                      aria-label="Basic outlined example"
+                    >
+                      <button type="button" class="btn btn-outline-secondary">
+                        View
+                      </button>
+                      <button type="button" class="btn btn-outline-secondary">
+                        Edit
+                      </button>
+                    </div>
+
+                    <p class="mb-0 text-body-secondary fs-7">9 mins</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+              <div class="card">
+                <img src="./default-image.svg" class="card-img-top" alt="..." />
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">
+                    Some quick example text to build on the card title and make
+                    up the bulk of the card's content.
+                  </p>
+
+                  <div
+                    class="d-flex align-items-center justify-content-between"
+                  >
+                    <div
+                      class="btn-group btn-group-sm"
+                      role="group"
+                      aria-label="Basic outlined example"
+                    >
+                      <button type="button" class="btn btn-outline-secondary">
+                        View
+                      </button>
+                      <button type="button" class="btn btn-outline-secondary">
+                        Edit
+                      </button>
+                    </div>
+
+                    <p class="mb-0 text-body-secondary fs-7">9 mins</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+              <div class="card">
+                <img src="./default-image.svg" class="card-img-top" alt="..." />
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">
+                    Some quick example text to build on the card title and make
+                    up the bulk of the card's content.
+                  </p>
+
+                  <div
+                    class="d-flex align-items-center justify-content-between"
+                  >
+                    <div
+                      class="btn-group btn-group-sm"
+                      role="group"
+                      aria-label="Basic outlined example"
+                    >
+                      <button type="button" class="btn btn-outline-secondary">
+                        View
+                      </button>
+                      <button type="button" class="btn btn-outline-secondary">
+                        Edit
+                      </button>
+                    </div>
+
+                    <p class="mb-0 text-body-secondary fs-7">9 mins</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+              <div class="card">
+                <img src="./default-image.svg" class="card-img-top" alt="..." />
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">
+                    Some quick example text to build on the card title and make
+                    up the bulk of the card's content.
+                  </p>
+
+                  <div
+                    class="d-flex align-items-center justify-content-between"
+                  >
+                    <div
+                      class="btn-group btn-group-sm"
+                      role="group"
+                      aria-label="Basic outlined example"
+                    >
+                      <button type="button" class="btn btn-outline-secondary">
+                        View
+                      </button>
+                      <button type="button" class="btn btn-outline-secondary">
+                        Edit
+                      </button>
+                    </div>
+
+                    <p class="mb-0 text-body-secondary fs-7">9 mins</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+              <div class="card">
+                <img src="./default-image.svg" class="card-img-top" alt="..." />
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">
+                    Some quick example text to build on the card title and make
+                    up the bulk of the card's content.
+                  </p>
+
+                  <div
+                    class="d-flex align-items-center justify-content-between"
+                  >
+                    <div
+                      class="btn-group btn-group-sm"
+                      role="group"
+                      aria-label="Basic outlined example"
+                    >
+                      <button type="button" class="btn btn-outline-secondary">
+                        View
+                      </button>
+                      <button type="button" class="btn btn-outline-secondary">
+                        Edit
+                      </button>
+                    </div>
+
+                    <p class="mb-0 text-body-secondary fs-7">9 mins</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+              <div class="card">
+                <img src="./default-image.svg" class="card-img-top" alt="..." />
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">
+                    Some quick example text to build on the card title and make
+                    up the bulk of the card's content.
+                  </p>
+
+                  <div
+                    class="d-flex align-items-center justify-content-between"
+                  >
+                    <div
+                      class="btn-group btn-group-sm"
+                      role="group"
+                      aria-label="Basic outlined example"
+                    >
+                      <button type="button" class="btn btn-outline-secondary">
+                        View
+                      </button>
+                      <button type="button" class="btn btn-outline-secondary">
+                        Edit
+                      </button>
+                    </div>
+
+                    <p class="mb-0 text-body-secondary fs-7">9 mins</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
+    </main>
+
+    <footer class="mt-5">
+      <div class="container">
+        <div class="d-flex justify-content-between">
+          <p>
+            Album example is &copy; Bootstrap, but please download and customize
+            it for yourself!
+          </p>
+
+          <a href="#" class="flex-shrink-0">Back to top</a>
+        </div>
+
+        <p>
+          New to Bootstrap? <a href="#">Visit the homepage</a> or read our
+          <a href="#">getting started guide</a>.
+        </p>
+      </div>
+    </footer>
 
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"

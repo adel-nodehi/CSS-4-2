@@ -1,7 +1,7 @@
-.row > div {
-  background-color: purple;
-  color: #fff;
-  padding: 1rem;
+.album {
+  width: 37rem;
+}
 
-  border: 1px solid black;
+.fs-7 {
+  font-size: 0.8rem;
 }
